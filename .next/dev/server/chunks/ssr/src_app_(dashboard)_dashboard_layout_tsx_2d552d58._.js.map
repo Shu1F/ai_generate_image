@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/fs203/workspace/ai_generate_image/src/app/%28dashboard%29/dashboard/layout.tsx"],"sourcesContent":["export default function DashboardLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <div>\n      <header className=\"sticky top-0 z-40 border-b bg-background\">\n        <div className=\"container flex items-center h-16 px-4\">\n          <Link>\n            <h1 className=\"text-lg font-bold\">AI Image Generator</h1>\n          </Link>\n        </div>\n      </header>\n\n      <div>\n        <aside>\n          <div></div>\n        </aside>\n\n        <main></main>\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS,gBAAgB,EACtC,QAAQ,EAGR;IACA,qBACE,8OAAC;;0BACC,8OAAC;gBAAO,WAAU;0BAChB,cAAA,8OAAC;oBAAI,WAAU;8BACb,cAAA,8OAAC;kCACC,cAAA,8OAAC;4BAAG,WAAU;sCAAoB;;;;;;;;;;;;;;;;;;;;;0BAKxC,8OAAC;;kCACC,8OAAC;kCACC,cAAA,8OAAC;;;;;;;;;;kCAGH,8OAAC;;;;;;;;;;;;;;;;;AAIT"}}]
+}

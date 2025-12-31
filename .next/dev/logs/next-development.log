@@ -1,0 +1,309 @@
+[00:00:00.579] Server  LOG     ✓ Ready in 424ms
+[00:03:28.921] Server  ERROR   ⨯ ReferenceError: DashboardNav is not defined
+[00:03:29.041] Browser ERROR   uncaughtError: ReferenceError: DashboardNav is not defined
+[00:12:56.620] Server  ERROR   ⨯ ReferenceError: DashboardNav is not defined
+[00:12:56.746] Browser ERROR   uncaughtError: ReferenceError: DashboardNav is not defined
+[00:23:35.705] Browser ERROR   ./src/app/(dashboard)/dashboard/layout.tsx:2:1
+Export DashboardNav doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { DashboardNav } from "@/components/dashboard/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function DashboardLayout({
+  5 |   children,
+
+The export DashboardNav was not found in module [project]/src/components/dashboard/nav.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:23:35.705] Browser ERROR   ./src/app/(dashboard)/dashboard/layout.tsx:2:1
+Export DashboardNav doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { DashboardNav } from "@/components/dashboard/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function DashboardLayout({
+  5 |   children,
+
+The export DashboardNav was not found in module [project]/src/components/dashboard/nav.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:23:56.702] Browser ERROR   ./src/app/(dashboard)/dashboard/layout.tsx:2:1
+Export DashboardNav doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { DashboardNav } from "@/components/dashboard/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function DashboardLayout({
+  5 |   children,
+
+The export DashboardNav was not found in module [project]/src/components/dashboard/nav.tsx [app-rsc] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:23:58.703] Browser ERROR   ./src/app/(dashboard)/dashboard/layout.tsx:2:1
+Export DashboardNav doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { DashboardNav } from "@/components/dashboard/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function DashboardLayout({
+  5 |   children,
+
+The export DashboardNav was not found in module [project]/src/components/dashboard/nav.tsx [app-rsc] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:23:58.703] Browser ERROR   ./src/app/(dashboard)/dashboard/layout.tsx:2:1
+Export DashboardNav doesn't exist in target module
+  1 | import Link from "next/link";
+> 2 | import { DashboardNav } from "@/components/dashboard/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function DashboardLayout({
+  5 |   children,
+
+The export DashboardNav was not found in module [project]/src/components/dashboard/nav.tsx [app-rsc] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:25:18.708] Browser ERROR   ./src/components/dashboard/nav.tsx:5:26
+Parsing ecmascript source code failed
+  3 | const DashboardNav = () => {
+  4 |   return <nav>
+> 5 |     navItems.map((item) => {
+    |                          ^
+  6 |       Button
+  7 |     })
+  8 |   </nav>;
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[00:25:18.708] Browser ERROR   ./src/components/dashboard/nav.tsx:5:26
+Parsing ecmascript source code failed
+  3 | const DashboardNav = () => {
+  4 |   return <nav>
+> 5 |     navItems.map((item) => {
+    |                          ^
+  6 |       Button
+  7 |     })
+  8 |   </nav>;
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[00:25:18.708] Browser ERROR   ./src/components/dashboard/nav.tsx:5:26
+Parsing ecmascript source code failed
+  3 | const DashboardNav = () => {
+  4 |   return <nav>
+> 5 |     navItems.map((item) => {
+    |                          ^
+  6 |       Button
+  7 |     })
+  8 |   </nav>;
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[00:25:18.708] Browser ERROR   ./src/components/dashboard/nav.tsx:5:26
+Parsing ecmascript source code failed
+  3 | const DashboardNav = () => {
+  4 |   return <nav>
+> 5 |     navItems.map((item) => {
+    |                          ^
+  6 |       Button
+  7 |     })
+  8 |   </nav>;
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[00:57:09.704] Browser ERROR   ./src/components/dashboard/nav.tsx:5:26
+Parsing ecmascript source code failed
+  3 | const DashboardNav = () => {
+  4 |   return <nav>
+> 5 |     navItems.map((item) => {
+    |                          ^
+  6 |       Button
+  7 |     })
+  8 |   </nav>;
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[00:57:09.704] Browser ERROR   ./src/components/dashboard/nav.tsx:5:26
+Parsing ecmascript source code failed
+  3 | const DashboardNav = () => {
+  4 |   return <nav>
+> 5 |     navItems.map((item) => {
+    |                          ^
+  6 |       Button
+  7 |     })
+  8 |   </nav>;
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[02:20:53.017] Browser ERROR   ./src/components/dashboard/nav.tsx:5:26
+Parsing ecmascript source code failed
+  3 | const DashboardNav = () => {
+  4 |   return <nav>
+> 5 |     navItems.map((item) => {
+    |                          ^
+  6 |       Button
+  7 |     })
+  8 |   </nav>;
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[02:20:53.017] Browser ERROR   ./src/components/dashboard/nav.tsx:5:26
+Parsing ecmascript source code failed
+  3 | const DashboardNav = () => {
+  4 |   return <nav>
+> 5 |     navItems.map((item) => {
+    |                          ^
+  6 |       Button
+  7 |     })
+  8 |   </nav>;
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[02:51:11.978] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[02:52:00.836] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[02:52:00.963] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[02:52:18.589] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[02:52:18.834] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[02:54:01.450] Server  ERROR   ⨯ ReferenceError: usePathname is not defined
+[02:54:01.567] Browser ERROR   uncaughtError: ReferenceError: usePathname is not defined
+[02:54:20.227] Browser ERROR   ./src/components/dashboard/nav.tsx:1:5
+Parsing ecmascript source code failed
+> 1 | use client;
+    |     ^^^^^^
+  2 | import { Button } from "../ui/button";
+  3 | import { navItems } from "@/config/nav";
+  4 | import Link from "next/link";
+
+Expected ';', '}' or <eof>
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[02:54:22.885] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:59:09.919] Server  LOG     ✓ Compiled in 21ms
+[02:59:52.571] Server  LOG     ✓ Compiled in 19ms
+[03:00:05.136] Server  LOG     ✓ Compiled in 22ms
+[03:00:43.448] Server  LOG     ✓ Compiled in 24ms
+[03:00:43.552] Browser ERROR   ./src/components/dashboard/nav.tsx:18:11
+Parsing ecmascript source code failed
+  16 |           className={
+  17 |             cn("justify-start", pathname === item.href && "bg-accent"), 
+> 18 |           }
+     |           ^
+  19 |         >
+  20 |           <Link href={item.href}>{item.title}</Link>
+  21 |         </Button>
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./src/components/dashboard/nav.tsx
+    ./src/app/(dashboard)/dashboard/layout.tsx
+[03:01:45.649] Server  LOG     ✓ Compiled in 44ms
+[03:01:54.304] Server  LOG     ✓ Compiled in 18ms
+[03:04:16.220] Server  ERROR   ⨯ ReferenceError: MobileNav is not defined
+[03:04:16.337] Browser ERROR   uncaughtError: ReferenceError: MobileNav is not defined
+[03:07:27.243] Server  ERROR   ⨯ ReferenceError: MobileNav is not defined
+[03:07:27.349] Browser ERROR   uncaughtError: ReferenceError: MobileNav is not defined
+[03:07:50.045] Server  LOG     ✓ Compiled in 72ms
+[03:09:21.084] Server  ERROR   ⨯ ReferenceError: Button is not defined
+[03:09:21.206] Browser ERROR   uncaughtError: ReferenceError: Button is not defined
+[03:09:38.149] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <button> button 
+
+  ...
+    <InnerLayoutRouter url="/dashboard" tree={[...]} params={{}} cacheNode={{...}} segmentPath={[...]} ...>
+      <SegmentViewNode type="layout" pagePath="(dashboard...">
+        <SegmentTrieNode>
+        <script>
+        <script>
+        <script>
+        <DashboardLayout>
+          <div>
+            <header className="sticky top...">
+              <div className="container ...">
+                <MobileNav>
+                  <Sheet>
+                    <Dialog data-slot="sheet">
+                      <DialogProvider scope={undefined} triggerRef={{current:null}} contentRef={{current:null}} ...>
+                        <SheetTrigger>
+                          <DialogTrigger data-slot="sheet-trigger">
+                            <Primitive.button type="button" aria-haspopup="dialog" aria-expanded={false} ...>
+>                             <button
+>                               type="button"
+>                               aria-haspopup="dialog"
+>                               aria-expanded={false}
+>                               aria-controls="radix-_R_2qbn5rlb_"
+>                               data-state="closed"
+>                               data-slot="sheet-trigger"
+>                               onClick={function handleEvent}
+>                               ref={function}
+>                             >
+                                <Button>
+>                                 <button
+>                                   data-slot="button"
+>                                   data-variant="default"
+>                                   data-size="default"
+>                                   className={"inline-flex items-center justify-center gap-2 whitespace-nowrap round..."}
+>                                 >
+                        ...
+                ...
+            ...
+
+[03:09:38.149] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. button <button>
+[03:09:38.149] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+[03:12:51.057] Server  ERROR   ⨯ ReferenceError: DashboardNav is not defined
+[03:12:51.184] Browser ERROR   uncaughtError: ReferenceError: DashboardNav is not defined
+[03:13:08.813] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:13:08.813] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:13:11.232] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:13:11.232] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:14:11.197] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:14:11.197] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:14:21.090] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[03:14:21.091] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
