@@ -1,11 +1,19 @@
-import { tools, ToolType } from '@/config/tools'
+import { tools, ToolType } from "@/config/tools";
+import { notFound } from "next/navigation";
 
-function ToolPage({params}: {params: {tool: string}}) {
-    const toolType = params.tool as ToolType
-    const tool = tools[toolType]
+async function ToolPage({ params }: { params: Promise<{ tool: string }> }) {
+  const toolType = (await params).tool as ToolType;
+  const tool = tools[toolType];
+
+  if (!tool) {
+    return notFound();
+  }
+
   return (
-    <div><h2>{tool.title}</h2></div>
-  )
+    <div>
+      <h2>{tool.title}</h2>
+    </div>
+  );
 }
 
-export default ToolPage
+export default ToolPage;
