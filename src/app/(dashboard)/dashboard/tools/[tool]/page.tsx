@@ -1,5 +1,7 @@
 import { tools, ToolType } from "@/config/tools";
 import { notFound } from "next/navigation";
+import PageContainer from "@/components/dashboard/page-container";
+import PageHeader from "@/components/dashboard/page-header";
 
 async function ToolPage({ params }: { params: Promise<{ tool: string }> }) {
   const toolType = (await params).tool as ToolType;
@@ -9,10 +11,15 @@ async function ToolPage({ params }: { params: Promise<{ tool: string }> }) {
     return notFound();
   }
 
+  const ToolComponet = tool.component;
+
   return (
-    <div>
-      <h2>{tool.title}</h2>
-    </div>
+    <PageContainer>
+      <PageHeader title={tool.title} description={tool.description} />
+      <div className="max-w-2xl">
+        <ToolComponet />
+      </div>
+    </PageContainer>
   );
 }
 

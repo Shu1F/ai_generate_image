@@ -1,9 +1,30 @@
-import React from 'react'
+import React from "react";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 function ImageGenerator() {
   return (
-    <div>ImageGenerator</div>
-  )
+    <div className="space-y-6">
+      <div className="space-y-4">
+        <form action="" className="space-y-4">
+          <div className="space-y-2">
+            <Label htmlFor="keyword">キーワード</Label>
+            <Input
+              id="keyword"
+              name="keyword"
+              placeholder="作成したい画像のキーワードを入力(例：海、山、都会、自然)"
+              required
+            />
+          </div>
+          {/* submit button */}
+          <Button type="submit">画像を生成する</Button>
+        </form>
+      </div>
+      {/* image preview */}
+      <div></div>
+    </div>
+  );
 }
 
-export default ImageGenerator
+export default ImageGenerator;
