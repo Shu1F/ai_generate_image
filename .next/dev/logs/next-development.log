@@ -1,4 +1,0 @@
-[00:00:00.513] Server  LOG     ✓ Ready in 373ms
-[00:00:01.570] Server  WARN    Error: Route "/dashboard/tools/[tool]" used `params.tool`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:01.574] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'title')
-[00:00:01.851] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'title')
