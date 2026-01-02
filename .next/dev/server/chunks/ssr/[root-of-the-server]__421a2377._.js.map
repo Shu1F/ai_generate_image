@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/fs203/workspace/ai_generate_image/src/app/%28dashboard%29/dashboard/tools/%5Btool%5D/page.tsx"],"sourcesContent":["import React from 'react'\n\nfunction ToolPage() {\n  return (\n    <div>ToolPage</div>\n  )\n}\n\nexport default ToolPage"],"names":[],"mappings":";;;;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}}]
+}
