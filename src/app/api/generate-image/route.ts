@@ -7,7 +7,7 @@ export async function POST(req: Request) {
 
   try {
     const payload = {
-      prompt: "Lighthouse on a cliff overlooking the ocean",
+      prompt: `Create Image with ${keyword}`,
       output_format: "png",
     };
 
@@ -34,7 +34,7 @@ export async function POST(req: Request) {
     const base64Image = Buffer.from(response.data).toString("base64");
     const imageUrl = `data:image/png;base64,${base64Image}`;
 
-    return NextResponse.json(imageUrl);
+    return NextResponse.json({ imageUrl });
   } catch (error) {
     return NextResponse.json(
       {
